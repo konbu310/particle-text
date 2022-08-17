@@ -1,0 +1,36 @@
+:root {
+  --page-ivory: #fcf3e6;
+  --dark-blue: #12274f;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--dark-blue);
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  user-select: none;
+  pointer-events: none;
+  background: transparent;
+}
+
+input {
+  font-size: 20px;
+  padding: 8px 0;
+  text-align: center;
+
+  width: 200px;
+  border: none;
+  border-bottom: 3px solid white;
+  background: transparent;
+  outline: none;
+  color: white;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+}

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf docs && mkdir docs && parcel build index.html --dist-dir=docs --public-url=./ --no-source-maps"
+  },
+  "dependencies": {
+    "lodash.debounce": "4.0.8"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
+    "typescript": "4.7.4"
+  }
+}
